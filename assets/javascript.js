@@ -32,7 +32,7 @@ btn.on("click", function () {
     if (city.val() == "") {
       return;
     }
-fetch('https://api.openweathermap.org/data/2.5/forecast?q=' + id + '&appid=8a1f66fca9ea575eb4cf57fc1b5c0e3d', { 
+fetch('https://api.openweathermap.org/data/2.5/forecast?q=' + city.val() + '&appid=8a1f66fca9ea575eb4cf57fc1b5c0e3d', { 
 
     method: 'GET',
     })

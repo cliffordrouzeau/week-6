@@ -32,7 +32,7 @@ btn.on("click", function () {
     if (city.val() == "") {
       return;
     }
-fetch('http://api.openweathermap.org/data/2.5/forecast?q=' + city.val() + '&appid=6a970c425747b2ea5d6c4e9f0082f64f', {
+fetch('http://api.openweathermap.org/data/2.5/forecast?q=' + city.val() + '8a1f66fca9ea575eb4cf57fc1b5c0e3d', {
     method: 'GET',
     })
     .then(function (response) {
@@ -158,7 +158,7 @@ $(Day6).append(Hum5)
 $(document).on("click", "button", function () {
     let id = $(this).attr("id");
 
-    fetch('http://api.openweathermap.org/data/2.5/forecast?q=' + id + '&appid=6a970c425747b2ea5d6c4e9f0082f64f', {
+    fetch('http://api.openweathermap.org/data/2.5/forecast?q=' + id + '8a1f66fca9ea575eb4cf57fc1b5c0e3d', {
       method: "GET",
     })
       .then(function (response) {

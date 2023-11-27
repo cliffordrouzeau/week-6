@@ -18,4 +18,4 @@ made it so each box would fill with information from the api
 
 
 
-[link to repo] 
+[link to repo] (https://github.com/cliffordrouzeau/week-6)

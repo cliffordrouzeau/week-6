@@ -14,7 +14,8 @@ made it so each box would fill with information from the api
 
 ```
 
-![image]
+![image](https://github.com/cliffordrouzeau/week-6/assets/142095138/d2027f77-7e3a-474f-8fb9-23cbe537e610)
+
 
 
 
